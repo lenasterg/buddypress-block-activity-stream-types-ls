@@ -1,0 +1,364 @@
+# Translation of Development in Greek
+# This file is distributed under the same license as the Development package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-activity-block\n"
+"Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
+"POT-Creation-Date: 2014-11-14 12:30+0200\n"
+"PO-Revision-Date: 2014-11-14 12:30+0200\n"
+"Last-Translator: Lena Stergatu <stergatu@cti.gr>\n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _e;_n;_nx:1,2;_nx;_n:1,2;_ex;_x:2c,1;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\blogsRun\\wp-content\\plugins"
+"\\buddypress-block-activity-stream-types\n"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\buddypress-block-activity-stream-types/bp-activity-block-loader.php:18
+msgid "BuddyPress Block Activity Stream Types"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\buddypress-block-activity-stream-types/bp-activity-block-loader.php:25
+msgid ""
+"Useful for large communities, in order to reduce the data volume in "
+"bp_activity database table.<br/> WARNING: No records of the selected actions "
+"will be stored. The email notifications will be still send out, unless "
+"another plugin has unset them."
+msgstr ""
+"Χρήσιμο σε μεγάλες κοινότητες, με στόχο τον περιορισμό του πλήθους των "
+"δεδομένων που καταγράφονται στον πίνακα bp_activity της βάσης δεδομένων. <br/"
+">ΠΡΟΣΟΧΗ: Δεν θα γίνεται καταγραφή των επιλεγμένων τύπων δραστηριότητας. Οι "
+"ειδοποιήσεις μέσω email θα αποστέλλονται κανονικά, εκτός και αν έχουν "
+"ρυθμιστεί διαφορετικά από άλλο plugin."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\buddypress-block-activity-stream-types/bp-activity-block-loader.php:29
+msgid ""
+"It is advised NOT to block activity_comment and activity_update activities "
+"(will cause errors in buddypress)"
+msgstr ""
+"Δεν είναι δυνατή η μη καταγραφή των δραστηριοτήτων τύπου activity_comment "
+"και activity_update (θα προκαλούσε προβλήματα στην λειτουργία του Buddypress)"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\buddypress-block-activity-stream-types/bp-activity-block-loader.php:31
+msgid "Select which activity types should not be recorded:"
+msgstr "Επιλέξτε ποιοι τύποι δραστηριοτήτων δεν θα καταγράφονται:"
+
+#~ msgid "Disable the recording of following activity types:"
+#~ msgstr "Επιλέξτε ποιοι τύποι δραστηριοτήτων δεν θα καταγράφονται:"
+
+#~ msgid "RSS pull mode"
+#~ msgstr "Λήψη περιεχομένου επιλεγμένων πηγών"
+
+#~ msgid "Feed duplication control"
+#~ msgstr "Έλεγχος για διπλοδηλώση πηγής"
+
+#~ msgid "Link to source"
+#~ msgstr "Πηγή"
+
+#~ msgid "Updated"
+#~ msgstr "Ενημερώθηκε"
+
+#~ msgid "No Option Updated"
+#~ msgstr "Δεν έγιναν αλλαγές στις ρυθμίσεις"
+
+#~ msgid "General Settings"
+#~ msgstr "Γενικές ρυθμίσεις"
+
+#~ msgid "RSS/Atom Syndicator - Default Settings"
+#~ msgstr "Άντληση άρθρων από RSS/Atom - Βασικές Ρυθμίσεις"
+
+#~ msgid "RSS/Atom Syndicator"
+#~ msgstr "Άντληση άρθρων από εξωτερικές πηγές (RSS/Atom)"
+
+#~ msgid "Syndicating"
+#~ msgstr "Άντληση περιεχομένου από"
+
+#~ msgid "post was added"
+#~ msgstr "άρθρο προστέθηκε"
+
+#~ msgid "posts were added"
+#~ msgstr "άρθρα προστέθηκαν"
+
+#~ msgid "Go to pending posts"
+#~ msgstr "Μετάβαση στον έλεγχο των άρθρων"
+
+#~ msgid "Feed Title"
+#~ msgstr "Όνομα πηγής RSS"
+
+#~ msgid "Generator"
+#~ msgstr "Δημιουργός"
+
+#~ msgid "Title"
+#~ msgstr "Τίτλος"
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "This feed is already in use"
+#~ msgstr "Αυτή η πηγή χρησιμοποιείται ήδη"
+
+#~ msgid "Feed Info and Preview"
+#~ msgstr "Πληροφορίες και Προεπισκόπηση"
+
+#, fuzzy
+#~ msgid "No feed found at"
+#~ msgstr "RSS Feed για"
+
+#~ msgid "Deleting. Please wait..."
+#~ msgstr "Διαγραφή άρθρων. Παρακαλούμε περιμένετε…"
+
+#~ msgid "Done"
+#~ msgstr "Έτοιμο"
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "ΣΦΑΛΜΑ:"
+
+#~ msgid "Syndication settings for"
+#~ msgstr "Ρυθμίσεις άντλησης περιεχομένου για "
+
+#~ msgid "Default syndication settings"
+#~ msgstr "Βασικές ρυθμίσεις άντλησης περιεχομένου"
+
+#~ msgid "Feed title"
+#~ msgstr "Όνομα πηγής RSS"
+
+#~ msgid "Feed URL"
+#~ msgstr "Feed URL's:"
+
+#~ msgid "Syndicate this feed to the following categories"
+#~ msgstr "Αντιστοίχιση άρθρων πηγής στις εξής κατηγορίες"
+
+#~ msgid "Syndicate new feeds to the following categories"
+#~ msgstr "Αντιστοίχιση νέων feeds στις ακόλουθες κατηγορίες"
+
+#~ msgid "Attribute all posts to the following user"
+#~ msgstr "Μέλος που θα εμφανίζεται ως συντάκτης"
+
+#~ msgid "Undefined categories"
+#~ msgstr "Μη υπάρχουσες κατηγορίες"
+
+#~ msgid "Use RSS/Atom default settings"
+#~ msgstr "Χρήση των βασικών ρυθμίσεων λήψης περιεχομένου μέσω RSS/Atom"
+
+#~ msgid "Post to default WordPress category"
+#~ msgstr "Ανάρτηση στην προκαθορισμένη κατηγορία άρθρων"
+
+#~ msgid "Create new categories defined in syndicating post"
+#~ msgstr ""
+#~ "Δημιουργία νέων κατηγοριών όπως αυτές ορίζονται στα άρθρα που αντλούνται"
+
+#~ msgid ""
+#~ "Do not syndicate post that doesn't match at least one category defined "
+#~ "above"
+#~ msgstr ""
+#~ "Να μην αντλούνται άρθρα που δεν αντιστοιχούν σε τουλάχιστον μια από τις "
+#~ "παραπάνω κατηγορίες"
+
+#~ msgid "Create tags from category names"
+#~ msgstr "Δημιουργία ετικετών από ονόματα κατηγορίων"
+
+#~ msgid "Post tags (separate with commas)"
+#~ msgstr "Ετικέτες άρθρων (χωρίστε πολλαπλές ετικέτες με κόμμα)"
+
+#~ msgid "Check for duplicate posts by"
+#~ msgstr "Έλεγχος για διπλοαναρτημένα άρθρα βάσει"
+
+#~ msgid "GUID and title"
+#~ msgstr "GUID και τίτλος"
+
+#~ msgid "GUID only"
+#~ msgstr "GUID μόνο"
+
+#~ msgid "Title only"
+#~ msgstr "Τίτλος μόνο"
+
+#~ msgid "Maximum number of posts to be syndicated from each feed at once"
+#~ msgstr "Μέγιστο πλήθος άρθρων που θα αντλούνται κάθε φορά"
+
+#~ msgid ""
+#~ "use low values to decrease the syndication time and improve SEO of your "
+#~ "blog."
+#~ msgstr "ορίστε μικρή τιμή για να ελλατώσετε τον χρόνο άντλησης."
+
+#~ msgid "Posts status"
+#~ msgstr "Κατάσταση άρθρου"
+
+#~ msgid "Comments"
+#~ msgstr "Σχόλια"
+
+#~ msgid "Allow comments on syndicated posts"
+#~ msgstr "Να επιτρέπεται σχολιασμός στα άρθρα που λαμβάνονται"
+
+#~ msgid "Disallow comments on syndicated posts"
+#~ msgstr "Δεν επιτρέπεται σχολιασμός στα άρθρα που λαμβάνονται"
+
+#~ msgid "Media attachments"
+#~ msgstr "Αρχεία πολυμέσων"
+
+#~ msgid "Do not insert attachments"
+#~ msgstr "Να μην εισάγονται τα πολυμέσα"
+
+#~ msgid "Insert attachments at the top of the post"
+#~ msgstr "Εισαγωγή πολυμέσων στην αρχή του άρθρου"
+
+#~ msgid "Insert attachments at the bottom of the post"
+#~ msgstr "Εισαγωγή πολυμέσων στο τέλος του άρθρου"
+
+#~ msgid ""
+#~ "if enabled CyberSyn syndicator will insert media attachments (if "
+#~ "available) into the aggregating post. The following types of attachments "
+#~ "are supported: <strong>&lt;media:content&gt;</strong>, <strong>&lt;media:"
+#~ "thumbnail&gt;</strong> and <strong>&lt;enclosure&gt;</strong> (type "
+#~ "\"image\" only) All the aggregated images will contain <strong>class="
+#~ "\"media_thumbnail\"</strong> in the <strong>&lt;img&gt;</strong> tag"
+#~ msgstr ""
+#~ "να εισάγονται τα πολυμέσα (αν υπάρχουν) στο άρθρο. Υποστηρίζονται οι "
+#~ "παρακάτω τύποι:  <strong>&lt;media:content&gt;</strong>,  <strong>&lt;"
+#~ "media:thumbnail&gt;</strong> και <strong>&lt;enclosure&gt;</strong>  "
+#~ "(type \"image\" μόνο). Όλα οι εικόνες θα περιέχουν <strong>class="
+#~ "\"media_thumbnail\"</strong> στην <strong>&lt;img&gt;</strong> ετικέτα."
+
+#~ msgid "Convert character encoding"
+#~ msgstr "Μετατροπή κωδικοποίησης χαρακτήρων"
+
+#~ msgid ""
+#~ "enables character encoding conversion. This option might be useful when "
+#~ "parsing XML/RSS feeds in national charsets different than UTF-8."
+#~ msgstr ""
+#~ "Ενεργοποιεί την μετατροπή κωδικοποίησης χαρακτήρων. Είναι χρήσιμη για τις "
+#~ "περιπτώσεις XML/RSS feed που είναι σε διαφορετική από UTF-8 κωδικοποίηση."
+
+#~ msgid "Store images locally"
+#~ msgstr "Αποθήκευση των εικόνων τοπικά"
+
+#~ msgid ""
+#~ "if enabled, all images from the syndicating feeds will be copied into the "
+#~ "default uploads folder of this blog. Make sure that your /wp-content/"
+#~ "uploads folder is writable."
+#~ msgstr ""
+#~ "όλες οι εικόνες από την πηγή θα αντιγραφούν στα πολυμέσα του ιστολογίου "
+#~ "σας."
+
+#, fuzzy
+#~ msgid "Post date adjustment range"
+#~ msgstr "Ημερομηνία:"
+
+#~ msgid "Post footer"
+#~ msgstr "Υποσέλιδο άρθρου"
+
+#~ msgid ""
+#~ " - the HTML code wich will be inserted into the bottom of each syndicated "
+#~ "post."
+#~ msgstr "- HTML κώδικας που θέλετε να εμφανίζεται στο τέλος κάθε άρθρου. "
+
+#~ msgid "Insert post footer into excerpts"
+#~ msgstr "Εισαγωγή υποσέλιδου άρθρου στις περιλήψεις"
+
+#~ msgid ""
+#~ "enable this option if you want to insert the post footer into the post "
+#~ "excerpt."
+#~ msgstr ""
+#~ "ενεργοποιήστε το αν θέλετε να εμφανίζεται το υποσέλιδο άρθρου και στην "
+#~ "περίληψη του."
+
+#~ msgid "Embed videos"
+#~ msgstr "Ενσωμάτωση videos"
+
+#~ msgid ""
+#~ "the embeddable videos will be automatically extracted and inserted into "
+#~ "the posts. Feed sources supported: YouTube only."
+#~ msgstr ""
+#~ "τα ενσωματωμένα videos θα εισαχθούν στα άρθρα. Υποστηρίζονται προς το "
+#~ "παρόν μόνο YouTube videos."
+
+#~ msgid "Update Feed Settings"
+#~ msgstr "Αποθήκευση ρυθμίσεων για την πηγή RSS/Atom"
+
+#~ msgid "Cancel"
+#~ msgstr "Άκυρο"
+
+#~ msgid "Syndicate This Feed"
+#~ msgstr "Αποθήκευση ρυθμίσεων"
+
+#~ msgid "Update Default Settings"
+#~ msgstr "Αποθήκευση βασικών ρυθμίσεων"
+
+#~ msgid "New Feed URL"
+#~ msgstr "RSS feed url νέας εξωτερικής πηγής:"
+
+#~ msgid "Syndicate"
+#~ msgstr "Ρύθμιση"
+
+#~ msgid "Last update"
+#~ msgstr "Τελευταία ενημέρωση"
+
+#~ msgid "edit"
+#~ msgstr "επεξεργασία"
+
+#~ msgid "minutes ago"
+#~ msgstr "λεπτά πριν"
+
+#~ msgid "Pull selected feeds now"
+#~ msgstr "Άντληση άρθρων από τις επιλεγμένες πηγές"
+
+#~ msgid "Delete selected feeds and syndicated posts"
+#~ msgstr "Διαγραφή επιλεγμένων πηγών και όσων άρθρων αντλήθηκαν από αυτές"
+
+#~ msgid "Delete selected feeds"
+#~ msgstr "Διαγραφή Επιλεγμένων feeds"
+
+#~ msgid "Delete posts syndycated from selected feeds"
+#~ msgstr "Διαγραφή άρθρων που λήφθηκαν  από τα επιλεγμένα feeds"
+
+#~ msgid "Alter default settings"
+#~ msgstr "Τροποποίηση ρυθμίσεων"
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Source"
+#~ msgstr "Πηγή"
+
+#, fuzzy
+#~ msgid "Y/m/d g:i:s A"
+#~ msgstr "d/m/Y g:i:s a"
+
+#, fuzzy
+#~ msgid "View all"
+#~ msgstr "Προβολή όλων"
+
+#, fuzzy
+#~ msgid "Preview"
+#~ msgstr "Προεπισκόπηση"
+
+#, fuzzy
+#~ msgid "Delete Permanently"
+#~ msgstr "Διαγραφή οριστικά"
+
+#, fuzzy
+#~ msgid "Move to Trash"
+#~ msgstr "Διαγραφή"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "(επεξεργασία)"
+
+#, fuzzy
+#~ msgid "Edit &#8220;%s&#8221;"
+#~ msgstr "Επεξεργασία του «%s»"
+
+#, fuzzy
+#~ msgid "Publish"
+#~ msgstr "Δημοσίευση:"
+
+#, fuzzy
+#~ msgid "Post published. <a href=\"%s\">View post</a>"
+#~ msgstr "Το άρθρο δημοσιεύτηκε. <a href=\"%s\">Δείτε το!</a>"
