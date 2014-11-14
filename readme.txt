@@ -1,9 +1,9 @@
-=== Plugin Name ===
-Contributors: nuprn1, etivite
+=== BuddyPress Block Activity Stream Types ===
+Contributors: nuprn1, etivite,lenasterg
 Donate link: http://etivite.com/wordpress-plugins/donate/
 Tags: buddypress, activity stream, activity, block activity
-Requires at least: PHP 5.3, WordPress 3.5.2, BuddyPress 2.0
-Tested up to: PHP 5.3.x, WordPress 3.5.2, BuddyPress 2.1
+Requires at least: PHP 5.2, WordPress 3.2.1, BuddyPress 1.5.1
+Tested up to: PHP 5.3.x, WordPress 3.2.1, BuddyPress 1.5.1
 Stable tag: 0.6
 
 This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
@@ -19,7 +19,7 @@ Please note, this will not allow an activity record to be saved into the databas
 
 What are activity types? BP Core includes several and plugins may register their own when hooking into the activity_record functions. This plugin will scan the activity table for distinct types already logged but will be ever changing due to new plugins.
 
-= Related Links: = 
+= Related Links: =
 
 * <a href="http://etivite.com" title="Plugin Demo Site">Author's Site</a>
 * <a href="http://etivite.com/wordpress-plugins/buddypress-block-activity-stream-types/">BuddyPress Block Activity Stream Types - About Page</a>
@@ -30,13 +30,13 @@ What are activity types? BP Core includes several and plugins may register their
 
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
-3. Adjust settings via the Activity Block admin page
+3. Adjust settings via the Buddypress Settings  admin page, section BuddyPress Block Activity Stream Types
 
 == Frequently Asked Questions ==
 
 = How do I exclude a certain activity types? =
 
-You may scan the bp-core code, plugin code, or attempt to view the types already entered into the database.
+All correct registered activity types are available in BuddyPress Block Activity Stream Types section in Buddypress settings.
 
 = How does it work? =
 
@@ -44,13 +44,11 @@ When bp-core or a plugin attempts to record a new activity - this plugin will bl
 
 = I blocked a type but the filter still appears in my theme in the dropdown select box =
 
-Certain types are hardcoded into the theme file bp-default/activity/index.php - you may need to remove the html select option
-
-Some plugins may register the do_action( 'bp_activity_filter_options' ) - there is no way to filter these out automatically and may require editing the plugin's core files - remove the action hook.
+Certain types, which are created by plugins, use the actions 'bp_activity_filter_options', 'bp_group_activity_filter_options', 'bp_member_activity_filter_options' in order to plug themself  into the theme files - there is no way to filter these out automatically and may require editing the plugin's core files - remove the action hook.
 
 = I blocked a type but still see the old activity records =
 
-This plugin does not remove previous logged activity items - you'll need to manually delete these.
+This plugin does not remove previous logged activity items - you'll need to manually delete these, through the Activity administration page.
 
 = I want to block a certain blog on my network from sending activity stream updates =
 
@@ -70,8 +68,8 @@ Please contact me on http://etivite.com
 
 == Changelog ==
 
-= 0.6 = 
-* Total rewritten for Buddypress 2.x. Use of settings API.
+= 0.6 =
+Complete rewritten by lenasterg for BuddyPress 2.x
 
 = 0.5.2 =
 
@@ -107,3 +105,6 @@ Please contact me on http://etivite.com
 == Extra Configuration ==
 
 See this forum thread for details on hooking the type check: http://etivite.com/groups/buddypress/forum/topic/quick-tip-hooking-block-activity-stream-types-plugin-on-a-granular-level/
+
+== Screenshots ==
+1. Buddypress Admin settings page, section BuddyPress Block Activity Stream Types
