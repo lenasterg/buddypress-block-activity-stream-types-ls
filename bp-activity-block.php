@@ -159,7 +159,8 @@ add_action( 'bp_activity_before_save', 'etivite_bp_activity_block_activity_recor
  * @author stergatu
  */
 function etivite_bp_activity_block_remove_types_from_filtering_select( $filters ) {
-    foreach ( $filters as $key => $filter ) {
+    if ( is_array( $filters ) ) {
+	foreach ( $filters as $key => $filter ) {
 	$keys = explode( ',', $key ); //the explode is needed in order to comply with the "hack" for friendships in the  bp_get_activity_show_filters() bp-activity/bp-activity-template.php,
 	foreach ( $keys as $newkey ) {
 	    $option_name = 'bp-disable-' . esc_attr( $newkey );
@@ -168,8 +169,10 @@ function etivite_bp_activity_block_remove_types_from_filtering_select( $filters 
 	    }
 	}
     }
+    }
     return $filters;
 }
+
 
 add_filter( 'bp_get_activity_show_filters_options', 'etivite_bp_activity_block_remove_types_from_filtering_select', 999 );
 //for BP versions < 2.2
