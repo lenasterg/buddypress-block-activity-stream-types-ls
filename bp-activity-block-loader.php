@@ -98,10 +98,8 @@ function etivite_bp_activity_block_init() {
 
     if ( file_exists( dirname( __FILE__ ) . '/languages/' . get_locale() . '.mo' ) )
 	load_textdomain( 'bp-activity-block', dirname( __FILE__ ) . '/languages/' . get_locale() . '.mo' );
-
     require( dirname( __FILE__ ) . '/bp-activity-block.php' );
 
-    add_action( bp_core_admin_hook(), 'etivite_bp_activity_block_admin_add_admin_menu' );
 }
 
 add_action( 'bp_include', 'etivite_bp_activity_block_init', 88 );
