@@ -25,7 +25,7 @@ function ls_bp_activity_block_dir() {
  */
 function ls_bp_activity_block_link( $links, $file ) {
     $plugindir = ls_bp_activity_block_dir();
-    $thisfile = $plugindir . '/bp-activity-block-loader.php';
+    $thisfile = $plugindir . '/loader.php';
     // Return normal links if not BuddyPress
     if ( $thisfile != $file )
 	return $links;
@@ -34,7 +34,7 @@ function ls_bp_activity_block_link( $links, $file ) {
     $settings_page = bp_core_do_network_admin() ? 'settings.php' : 'options-general.php';
     // Add a few links to the existing links array
     return array_merge( $links, array(
-	'settings' => '<a href="' . add_query_arg( array( 'page' => 'bp-settings#etivite-bp-activity-block' ), $settings_page ) . '">' . esc_html__( 'Settings', 'buddypress' ) . '</a>',
+	'settings' => '<a href="' . add_query_arg( array( 'page' => 'bp-settings#ls-bp-stop-record-activity' ), $settings_page ) . '">' . esc_html__( 'Settings', 'buddypress' ) . '</a>',
 	    ) );
 
     return $links;
@@ -50,7 +50,7 @@ add_action( 'bp_register_admin_settings', 'ls_bp_activity_block_admin_register_s
 
 function ls_bp_activity_block_admin_register_settings() {
     // Add the main section
-    add_settings_section( 'etivite-bp-activity-block', __( 'BuddyPress Block Activity Stream Types', 'bp-activity-block' ), 'ls_bp_activity_block_admin_section', 'buddypress' );
+    add_settings_section( 'ls-bp-stop-record-activity', __( 'BuddyPress Stop Record those Activity Types', 'bp-activity-block' ), 'ls_bp_activity_block_admin_section', 'buddypress' );
 
     ls_bp_activity_block_callback_activity_types();
 }
