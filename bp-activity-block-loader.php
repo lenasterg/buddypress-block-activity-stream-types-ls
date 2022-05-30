@@ -4,10 +4,10 @@
   Plugin Name: BuddyPress Block Activity Stream Types
   Plugin URI: http://wordpress.org/extend/plugins/buddypress-block-activity-stream-types/
   Description: Blocks an activity record (based on types) from being saved to the database
-  Author: rich @etivite
+  Author: rich @etivite , lenasterg
   Author URI: http://etivite.com
   License: GNU GENERAL PUBLIC LICENSE 3.0 http://www.gnu.org/licenses/gpl.txt
-  Version: 0.6
+  Version: 1.0
   Text Domain: bp-activity-block
   Network: true
  */

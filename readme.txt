@@ -3,16 +3,14 @@ Contributors: nuprn1, etivite,lenasterg
 Donate link: http://etivite.com/wordpress-plugins/donate/
 Tags: buddypress, activity stream, activity, block activity
 Requires at least: PHP 5.2, WordPress 3.2.1, BuddyPress 1.5.1
-Tested up to: PHP 5.3.x, WordPress 3.2.1, BuddyPress 1.5.1
-Stable tag: 0.6
+Tested up to: PHP 7.4.x, WordPress 6.0, BuddyPress 10.3.0
+Stable tag: 1.0
 
 This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
 
 == Description ==
 
 ** IMPORTANT **
-This plugin has been updated for BuddyPress 2.x
-
 This plugin will "block" an activity record from being saved to the stream/database. Such as new member registration, joining groups, friendships created.
 
 Please note, this will not allow an activity record to be saved into the database at all. You will need to know the "type" of activity record. It is advised NOT to block activity_comment and activity_update activities (will cause errors in buddypress)
@@ -67,6 +65,9 @@ Please contact me on http://etivite.com
 
 
 == Changelog ==
+
+= 1.0 =
+Compatibility check for WordPress 6.0 and BuddyPress 10.3.0
 
 = 0.6 =
 Complete rewritten by lenasterg for BuddyPress 2.x
